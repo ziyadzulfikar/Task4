@@ -1,0 +1,34 @@
+*{
+    margin: 0;
+    background: black;
+}
+.bulbImage{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 230px;
+}
+.bulbImage1{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    padding-top: 230px;
+    visibility: hidden;
+}
+#BulbButton{
+    width: 100px;
+    height: 30px;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    border: solid;
+    background: black;
+    color: white;
+    cursor: pointer;
+    transition: background 1s;
+    border-radius: 10px;
+}
+#BulbButton:hover{
+    color: black;
+    background: white;
+}
