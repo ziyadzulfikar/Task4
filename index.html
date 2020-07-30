@@ -9,12 +9,19 @@
 <body>
     <div>
         <div>
-            <img id="Image" src="BulbOff.png" alt="" class="bulbImage">
-            <input onclick="Bulb()" type="button" value="Turn On" id="BulbButton" />
+            <center>
+                <img id="Image" src="BulbOff.png" alt="" class="bulbImage">
+                <input value="Turn On" onclick="Bulb()" type="checkbox" id="switch"
+                        class="checkbox" /> 
+                <label for="switch" class="toggle">
+                    <br>
+                    <p class="Toggle-OnOFF">ON  OFF</p>
+                </label>
+            </center>
         </div>
     </div>
     <script src="script.js">
-        
+
     </script>
 </body>
 </html>
